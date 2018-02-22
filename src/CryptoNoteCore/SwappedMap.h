@@ -4,7 +4,6 @@
 
 #pragma once
 
-#include <iostream>
 #include <cstdint>
 #include <fstream>
 #include <iomanip>
