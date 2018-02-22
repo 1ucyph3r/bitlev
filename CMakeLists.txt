@@ -119,6 +119,8 @@ elseif(NOT MSVC)
   set(Boost_LIBRARIES "${Boost_LIBRARIES};rt")
 endif()
 
+set(BOOST_LIBRARYDIR ${BOOST_ROOT}/stage/lib/)
+
 set(COMMIT_ID_IN_VERSION ON CACHE BOOL "Include commit ID in version")
 file(MAKE_DIRECTORY "${CMAKE_BINARY_DIR}/version")
 if (NOT COMMIT_ID_IN_VERSION)
